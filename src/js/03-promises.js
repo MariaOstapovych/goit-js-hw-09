@@ -37,7 +37,9 @@ form.addEventListener("submit", (event) => {
       }
     }, delay);
   });
-}
+  }
+
+  form.reset();
 })
 
 
